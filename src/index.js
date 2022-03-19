@@ -4,6 +4,8 @@ import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
 
+const spotifyClientId = process.env.REACT_APP_SPOTIFY_CLIENT_ID
+
 ReactDOM.render(
   <React.StrictMode>
     <App />
